@@ -10,19 +10,23 @@
     border-color: #198754;
 }
 
+header{
+    border-radius: 20px 20px 0px 0px;
+    background-color: rgb(86, 168, 4);
+}
+
+#imgLogo{
+    margin: 10px;
+}
+
 .input-registro{
     background-color: rgb(189, 178, 178);
     border-radius: 10px 10px 10px 10px;
     text-align: center;
 }
 
-#imgLogo{
-    margin: 10px;
-}
-header{
-    border-radius: 20px 20px 0px 0px;
-    background-color: rgb(86, 168, 4);
-}
+
+
 
 .centrar_titulo{
     margin-bottom: 20px;
@@ -38,25 +42,4 @@ form{
 }
 label{
     text-align: left;
-}
-
-
-.btn {
-    display: inline-block;
-    font-weight: 200;
-    line-height: 1.5;
-    color: #212529;
-    text-align: center;
-    text-decoration: none;
-    vertical-align: middle;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .375rem .75rem; 
-    font-size: 1rem;
-    border-radius: 10px 10px 10px 10px;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
